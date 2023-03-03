@@ -33,4 +33,4 @@ All buttons and cards in the project are active on hover.
 
   **[Layout in Figma](https://www.figma.com/file/fw0toTyXMwM1y4WIe0YFrJ/React-Sneakers?node-id=60%3A2&t=ob91RTyEQdX8jdNy-1)**
 
-  **[Project: Sneakers shop]()**
+  **[Project: Sneakers shop](https://nadezdapl.github.io/React-sneakers/)**

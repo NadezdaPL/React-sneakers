@@ -38,5 +38,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "The online sneaker store was made to study and consolidate the skills of working with React. As well as the practice of using SCSS to reduce code and avoid multiple assignment of a class to each element.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadezdaPL/React-sneakers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadezdaPL/React-sneakers/issues"
+  },
+  "homepage": "https://github.com/NadezdaPL/React-sneakers#readme"
 }
