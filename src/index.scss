@@ -9,7 +9,7 @@ body {
   font-family: "Inter", system-ui;
 }
 
-.page {
+.wrapper {
   background: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
   border-radius: 20px;
@@ -41,6 +41,16 @@ header {
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
   }
+
+  .h3 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .b {
+    font-size: 13px;
+  }
+
 }
 
 .card__favorite {
@@ -58,10 +68,7 @@ header {
   cursor: pointer;
 }
 
-.card__title {
-  font-weight: 400;
-  font-size: 14px;
-}
+
 
 .card__price {
   font-size: 13px;
@@ -69,9 +76,7 @@ header {
   text-transform: uppercase;
 }
 
-.card__number {
-  font-size: 13px;
-}
+
 
 .search {
   border: 1px solid #F3F3F3;
