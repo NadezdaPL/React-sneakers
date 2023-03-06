@@ -1,10 +1,12 @@
+
+import React from "react";
+import Card from "./components/Card";
 import Drawer from "./components/Drawer";
 import Header from "./components/Header";
-import Card from "./components/Card";
 
 const arr = [
   {
-    title: "Мужские Кроссовки Nike Blazer Mid Suede",
+    title: "Men's Sneakers Nike Blazer Mid Suede",
     price: 12999,
     image: ('images/sneakers/1.jpg'),
   },
@@ -19,7 +21,7 @@ function App() {
         <div className="d-flex align-center mb-40 justify-between">
           <h2>Sneakers</h2>
           <div className="search d-flex">
-            <img src="/images/search.svg" alt="Seach" />
+            <img src="images/search.svg" alt="Seach" />
             <input placeholder="Search..." />
           </div>
         </div>

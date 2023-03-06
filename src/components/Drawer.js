@@ -6,14 +6,14 @@ function Drawer() {
           Shopping Bag{" "}
           <img
             className="button__remove cu-p"
-            src="/images/button-remove.svg"
+            src="images/button-remove.svg"
             alt="Remove"
           />
         </h2>
         <div className="items">
           <div className="cart__item d-flex align-center mb-20">
             <div
-              style={{ backgroundImage: "url(/images/sneakers/1.jpg)" }}
+              style={{ backgroundImage: "url(images/sneakers/1.jpg)" }}
               className="cart__image"
             ></div>
             <div className="mr-20 flex">
@@ -28,7 +28,7 @@ function Drawer() {
           </div>
           <div className="cart__item d-flex align-center mb-20">
             <div
-              style={{ backgroundImage: "url(/images/sneakers/1.jpg)" }}
+              style={{ backgroundImage: "url(images/sneakers/1.jpg)" }}
               className="cart__image"
             ></div>
             <div className="mr-20 flex">
@@ -37,13 +37,13 @@ function Drawer() {
             </div>
             <img
               className="button__remove"
-              src="/images/button-remove.svg"
+              src="images/button-remove.svg"
               alt="Remove"
             />
           </div>
           <div className="cart__item d-flex align-center mb-20">
             <div
-              style={{ backgroundImage: "url(/images/sneakers/1.jpg)" }}
+              style={{ backgroundImage: "url(images/sneakers/1.jpg)" }}
               className="cart__image"
             ></div>
             <div className="mr-20 flex">
@@ -52,7 +52,7 @@ function Drawer() {
             </div>
             <img
               className="button__remove"
-              src="/images/button-remove.svg"
+              src="images/button-remove.svg"
               alt="Remove"
             />
           </div>
@@ -71,7 +71,7 @@ function Drawer() {
             </li>
           </ul>
           <button className="green__button">
-            Checkout <img src="/images/cart-arrow.svg" alt="Arrow" />
+            Checkout <img src="images/cart-arrow.svg" alt="Arrow" />
           </button>
         </div>
       </div>
