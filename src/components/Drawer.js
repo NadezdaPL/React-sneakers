@@ -1,4 +1,6 @@
-function Drawer([ onClose, items=[] ]) {
+import React from "react";
+
+function Drawer({ onClose, items=[] }) {
   return (
     <div className="overlay">
       <div className="drawer">
