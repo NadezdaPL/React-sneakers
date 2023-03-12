@@ -25,7 +25,7 @@ function Drawer({ onClose, onRemove, items = [] }) {
                   ></div>
                   <div className="mr-20 flex">
                     <p className="mb-5">{obj.title}</p>
-                    <b>{obj.price}</b>
+                    <b>{obj.price} rub.</b>
                   </div>
                   <img
                     className="button__remove"
