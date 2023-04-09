@@ -12,8 +12,9 @@
     "macro-css": "^1.0.5",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
+    "react-content-loader": "^6.2.1",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "router": "^1.3.8",
     "web-vitals": "^2.1.4"

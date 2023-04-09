@@ -135,6 +135,11 @@ header {
  
   .greenButton {
     position: relative;
+
+    &:disabled {
+      animation: button-loading 0.6s ease-in-out infinite;
+    }
+
     &:hover {
       img {
         transform: translateX(5px);
@@ -163,6 +168,11 @@ header {
   color: #FFFFFF;
   cursor: pointer;
   transition: background 0.1s ease-in-out;
+
+  &:disabled {
+    background-color: #bebebe !important;
+    cursor: default;
+   }
 
   &:hover {
     background: lighten($color: #9DD558, $amount: 5%);
@@ -212,4 +222,16 @@ header {
   flex: 1;
   overflow: auto;
   margin-bottom: 40px;
+}
+
+@keyframes button-loading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
 }
