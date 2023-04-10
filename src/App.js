@@ -4,7 +4,7 @@ import Drawer from "./components/Drawer/index";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import AppContext from "./context";
 import Orders from "./pages/Orders";
 
