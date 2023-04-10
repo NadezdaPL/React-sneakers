@@ -57,7 +57,7 @@
   "bugs": {
     "url": "https://github.com/React-sneakers/issues"
   },
-  "homepage": "https://nadezdapl.github.io/React-sneakers/",
+  "homepage": "https://nadezdapl.github.io/React-sneakers",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }

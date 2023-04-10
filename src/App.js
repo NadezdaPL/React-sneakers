@@ -136,7 +136,7 @@ function App() {
           <Routes>
             <Route
             exact
-              path=""
+              path="/"
               element={
                 <Home
                   items={items}
@@ -150,8 +150,14 @@ function App() {
                 />
               }
             />
-            <Route path="favorites" element={<Favorites />} />
-            <Route path="orders" element={<Orders />} />
+            <Route path="/favorites" element={<Favorites />} />
+            <Route path="/orders" element={<Orders />} />
+            <Route
+              path="*"
+              element={
+                <Navigate to="/" />
+              }
+            />
           </Routes>
         </div>
       </>
