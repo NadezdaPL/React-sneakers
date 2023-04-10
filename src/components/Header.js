@@ -4,8 +4,11 @@ import headerLogo from '../../src/images/header-logo.png';
 import headerCart from '../../src/images/header-cart.svg';
 import heart from '../../src/images/heart.svg';
 import headerUser from '../../src/images/header-user.svg';
+import { useCart } from "../hooks/useCart";
 
 function Header(props) {
+  const { totalPrice } = useCart();
+
   return (
     <header className="d-flex justify-between align-center p-40">
       <Link to="/">
@@ -20,15 +23,17 @@ function Header(props) {
       <ul className="d-flex">
         <li className="mr-30 cu-p" onClick={props.onClickCart}>
           <img width={18} height={18} src={headerCart} alt="Cart" />
-          <span>1205 rub.</span>
+          <span>{totalPrice} rub.</span>
         </li>
         <li className="mr-20 cu-p">
           <Link to="/favorites">
             <img width={18} height={18} src={heart} alt="Heart" />
           </Link>
         </li>
-        <li className="cu-p">
-          <img width={18} height={18} src={headerUser} alt="User" />
+        <li>
+          <Link to="/orders">
+            <img width={18} height={18} src={headerUser} alt="User" />
+          </Link>
         </li>
       </ul>
     </header>

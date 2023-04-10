@@ -16,8 +16,7 @@ The online sneaker store was made to study and consolidate the skills of working
 <u>**Technical component of the project:**</u>
 
 * basic information was taken from the *layout in "Figma"*;
-* the site page was created on the basis of the file structure according to *BEM methodology*;
-* the markup of the project was first prepared in HTML and CSS, then the project will be implemented through React;
+* the markup of the project was first prepared in HTML and CSS, then the project was implemented through React;
 <!-- * *adaptive layout* was implemented in the project to make the web page look great on all devices; -->
 <!-- * for ¨flexibility¨ of the site used: *flexbox*, *grid* and *directive @media*; -->
 <!-- * the project uses the JavaScript programming language; -->

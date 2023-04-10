@@ -20,13 +20,14 @@ function Card({
 
   const { isItemAdded } = React.useContext(AppContext);
   const [isFavorite, setIsFavorite] = React.useState(favorited);
+  const obj = { id, parentId: id, image, title, price };
 
   const onPlusClick = () => {
-    onPlus({ id, image, title, price });
+    onPlus(obj);
   };
 
   const onFavoriteClick = () => {
-    onFavorite({ id, image, title, price });
+    onFavorite(obj);
     setIsFavorite(!isFavorite);
   };
 
@@ -49,9 +50,9 @@ function Card({
         </ContentLoader>
       ) : (
         <>
-          <div className={styles.favorite} onClick={onFavoriteClick}>
+         {onFavorite && (<div className={styles.favorite} onClick={onFavoriteClick}>
             <img src={isFavorite ? liked : unliked} alt="Unliked" />
-          </div>
+          </div>)}
           <img width="100%" height={135} src={image} alt="" />
           <h3>{title}</h3>
           <div className="d-flex justify-between align-center">
@@ -59,12 +60,12 @@ function Card({
               <span>Price:</span>
               <b>{price} rub.</b>
             </div>
-            <img
+            {onPlus && (<img
               className={styles.plus}
               src={isItemAdded(id) ? checked : plus}
               alt="plus"
               onClick={onPlusClick}
-            />
+            />)}
           </div>
         </>
       )}
