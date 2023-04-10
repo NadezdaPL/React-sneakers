@@ -17,11 +17,19 @@ The online sneaker store was made to study and consolidate the skills of working
 
 * basic information was taken from the *layout in "Figma"*;
 * the markup of the project was first prepared in HTML and CSS, then the project was implemented through React;
+* mockapi.io server is used to store data.
 <!-- * *adaptive layout* was implemented in the project to make the web page look great on all devices; -->
 <!-- * for ¨flexibility¨ of the site used: *flexbox*, *grid* and *directive @media*; -->
 <!-- * the project uses the JavaScript programming language; -->
 
+<u>**Further plans to improve the project:**</u>
 
+* make a mobile version of the site so that the project looks good on any screens;
+* fix bugs in the overlay with the basket, round the amount of tax on goods in the basket, set clear sizes inside the cards;
+* change the shape of the loading;
+* add main picture;
+* in bookmarks and orders, if there are no goods, display the corresponding message;
+* in the order page, set a limit on the number of displayed purchases on the screen.
 
 <u>**Animation:**</u>
 
